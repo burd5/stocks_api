@@ -24,6 +24,8 @@ time.sleep(10)
 
 number_of_pages = int(driver.find_element(By.XPATH, '/html/body/section/div/div[2]/div[2]/div[3]/div[3]/div/div/div/div[4]/span/a[6]').text)
 
+###
+
 print(number_of_pages)
 
 
