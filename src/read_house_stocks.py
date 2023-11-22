@@ -1,9 +1,8 @@
-# 2018 to 2023
-
 import camelot
 import matplotlib.pyplot as plt
 import pandas as pd
 import warnings
+from scrape_house_stocks import document_links
 
 
 def read_stock_pdf_convert_to_dict(file_name:str) -> list:
